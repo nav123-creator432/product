@@ -1,0 +1,205 @@
+body{
+    background: linear-gradient(to bottom, #6ec1e4, #196eb5);
+    min-height: 100vh;
+    color: aliceblue;
+}
+.left,.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+  
+}
+
+nav{
+ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.underline{
+    background-color: grey;
+    height: 2px;
+    margin:5px 20px;
+}
+li{
+    margin: 8px;
+    font-weight: 500;
+    font-family: cursive;
+    list-style: none;
+
+}
+button{
+    background-color:#0044cc;
+    cursor: pointer;
+    border-radius: 18px;
+    border: none;
+    color: white;
+    padding: 11px;
+    font-size: medium;
+    margin: 8px;
+    font-family: cursive;
+  }
+  button:hover{
+    background-color: #003399;
+  }
+  
+.left li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+   
+  }
+  .mid {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: cursive;
+  }
+  .right svg {
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+  }
+  .form{
+   width: 485px;
+   height: 530px;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 60px;
+    position: relative;
+    margin-bottom: 45px;
+   
+
+  }
+ label{ margin:10px 25px;
+    font-size: large;
+
+ }
+  
+  input{
+    display: flex ;
+    flex-direction: column;
+    background-color: grey;
+    border: none;
+    border-radius: 12px;
+    font-size: larger;
+    margin:10px 25px;
+  }
+  /*.first{
+    position: absolute;
+    top: 107px;
+    right: 40%;
+  }*/
+  .animation{
+    height:280px;
+  }
+  .btn{
+    text-align: center;
+  }
+
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-image: url(https://img.freepik.com/premium-photo/toy-shopping-cart-with-boxes-blue-background-there-is-space-available-text-design_176841-12447.jpg?w=1060);
+
+background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+
+}
+.list{
+   background-color: #F8F8FF;
+   color: grey;
+   text-align:center ;
+   border-radius: 12px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+margin:30px 0px;
+
+
+}
+
+footer {
+  background-color: #0044cc;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.flex {
+  width:80vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+
+.footer li {
+  list-style-type: none;
+  font-size: large;
+  cursor: pointer;
+}
+
+.footer li:hover {
+  opacity: 0.5;
+}
+
+
+.Copyright {
+  font-size: small;
+  padding: 20PX;
+
+}
+
+.footer svg {
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+button {
+  cursor: pointer;
+}
+
+svg:hover {
+  opacity: 0.5;
+}
+
+svg {
+  cursor: pointer;
+  color: #F8F8FF;
+}
+
